@@ -98,7 +98,14 @@
             ],
             "scripts": []
           }
-        }
+        },
+        "deploy": {
+            "builder": "angular-cli-ghpages:deploy",
+            "options": {
+              "baseHref": "https://matheusalvarenga.github.io/system_cards_angular/",
+              "name": "Matheus Alvarenga"
+            }
+          }
       }
     }
   },
